@@ -1,0 +1,376 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eeee;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(162, 162, 162);
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 22px;
+}
+ul li #home{
+    color: rgb(138, 6, 110);
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .mainText{
+    margin-top: 144px;
+    
+}
+.mainText h1{
+    font-size: 64px;
+    
+}
+.mainText .top{
+    color: rgb(138, 6, 110);
+}
+.mainText button{
+    background-color: rgb(0, 0, 0);
+    width: 145px;
+    height: 40px;
+    color: rgb(243, 238, 242);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button:hover{
+    border: 3px solid rgb(138, 6, 110);
+    background-color: transparent;
+    color: rgb(8, 2, 2);
+}
+
+.head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color: rgb(138, 6, 110);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    
+}
+
+.card .crd{
+    width: 300px;
+    height: 490px;
+    background-color: #fff;
+    margin-inline: 20px;
+    
+}
+
+
+
+.crd img{
+    
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px; 
+
+}
+.crdText{
+    margin-left: 16px;
+    padding: 8px;
+}
+.crdText button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(138, 6, 110);
+    color: white;
+    font-size: 19px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+.crdText img{
+ height: 25px;
+ width: 25px;
+padding: 1px;
+}
+.contemp{
+    display: flex;
+    height: 450px;
+    background-color: rgb(227, 217, 244);
+ 
+}
+.s{
+    margin:70px 350px ;
+}
+.service-item{
+   
+    margin-top: 200px;
+    margin-right: -500px;
+    
+}
+.service-item {
+    size: 10px;
+}
+.service-item img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* about */
+.about{
+    display: none;
+}
+.aboutus{
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 33px;
+    margin-left: 18%;
+    margin-top: 7%;
+}
+.me img{
+    width: 54%;
+}
+
+/* /contact */
+
+.contact{
+    display: none;
+}
+.contactus{
+    background-color: rgb(1, 1, 42);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    background-color: #fff;
+    margin-left: 10%;
+
+}
+.contactMe img{
+    width: 55%;
+}
+
+.contactText{
+    padding: 22px;
+    width: 600px;
+}
+.contactText p{
+    margin-top: 12px;
+}
+.form{
+    text-align: center;
+    margin-top: 5%;
+    padding: 22px;
+}
+.form input{
+    width: 300px;
+    padding: 5px;
+    height: 27px;
+    margin-top: 11px;
+}
+.form button{
+    width: 300px;
+    height: 36px;
+    background-color: rgb(2, 54, 54);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+    
+}
+
+/* cart */
+
+.cart{
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+
+}
+.cartText{
+    padding: 22px;
+    margin-top: 22px;
+}
+.cartText p{
+    margin-top: 12px;
+}
+.cartText h2{
+    margin-top: 11px;
+}
+.cartText .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.cartText .back{
+    width: 140px;
+    height: 40px;
+    background-color:rgb(4, 81, 81);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    margin-top: 22px;
+}
+
+
+
+
+.clip {
+    position: absolute;
+    clip: rect(0px 0px 0px 0px);
+  }
+
+  .footerTest {
+    width: 100%;
+    margin: 3% auto;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+  
+  
+  
+  #footerTest {
+    background: #2f2e2e;
+    padding: 15px 0 15px 0;
+  }
+  
+  .footerWrap {
+    margin: auto;
+    width: 600px;
+    padding: 5px 0 5px 25px;
+  }
+  
+  .toe {
+    overflow: hidden;
+    display: inline-block;
+    width: 180px;
+    margin: 0 15px 15px 0;
+    font-size: 10pt;
+    line-height: 1.6em;
+    vertical-align: top;
+  }
+  
+  .toe a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .toe a:hover {
+    text-decoration: underline;
+  }
+  
+  .toe h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12pt;
+    display: inline-block;
+    letter-spacing: 1px;
+  }
+  
+  #legal {
+    width: 100%;
+    text-align: center;
+    color: #eaeaea;
+    background: #22697f;
+    font-size: 8pt;
+    line-height: 1.6em;
+    padding: 10px 10px 30px 10px;
+  }
+  
+  #social a {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    margin: 0 3px 3px 0;
+  }
+  
+  #fb {
+    background: url("https://imgur.com/fCRgp42.png") 0 0 no-repeat;
+  }
+  
+  #twitter {
+    background: url("https://imgur.com/fCRgp42.png") -29px 0 no-repeat;
+    border-radius: 4px;
+  }
+
+  #pinterest {
+    background: url("https://imgur.com/fCRgp42.png") -87px 0 no-repeat;
+    border-radius: 4px;
+  }
+  
+  #instagram {
+    background: url("https://imgur.com/fCRgp42.png") -146px 0 no-repeat;
+  }
+  
+  .foot{
+    margin-left: 750px;
+  }

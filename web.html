@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerse_Website</title>
+    <link rel="stylesheet" href="Web.css">
+    
+
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://fontawesomeicons.com/bootstrap/icons">
+</head>
+
+<body>
+    
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Fashion</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <!-- <a id="blog" onclick="blogs()">Blog</a> -->
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>Fashion</h2>
+                <h1 class="top">ITS ALL HERE</h1>
+                <h1>Shop at your own pace</h1>
+                <p>Get upto 50% off on your first order</p>
+                <button>Explore</button>
+            </div>
+            <img src="w2-removebg-preview.png" alt="">
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="b1.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                         <h2>Cutton Trending Shirt's</h2>
+
+                         <br>
+                       <!-- <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                        <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="cloth2.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                         <br>
+                        <!-- <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                        <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                 
+         
+
+                 <div class="crd">
+                    <img src="b2.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <br>
+                        <!-- <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                        <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="cloth3.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <br>
+                        <!-- <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                        <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+
+                    <div class="crd">
+                        <img src="b3.jpg" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h2>Cutton Trending Shirt's</h2>
+                            <br>
+                            <!-- <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                            <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Women Card -->
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1>Trends <span>Women's Wear</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="gw1.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                                <br>
+                            <!-- <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                            <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="crd">
+                            <img src="gw6.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                                <br>
+                            <!-- <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                            <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="gw5.avif" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                                <br>
+                            <!-- <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                            <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="crd">
+                            <img src="gw4.avif" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                                <br>
+                            <!-- <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                            <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="gw7.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                                <br>
+                            <!-- <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br> -->
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <img src="icons8-star-32.png" alt="">
+                              <br><br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- about us -->
+
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        <p>Discover the best deals on the products you love. From fashion to electronics, we've got something for everyone. Shop now and enjoy great prices and fast delivery!</p>
+                    </div>
+
+                    <div class="me">
+                        <img src="lap.png" alt="">
+                        <div class="aboutText">
+                            <h1>Why Shop With Us?
+                                </h1>
+                            <p>Wide Range of Products: Find everything you need in one place. <br>
+                                Great Prices: Save big with our unbeatable deals. <br>
+                                Fast Shipping: Get your order quickly with our reliable delivery service. <br>
+                                Easy Returns: Hassle-free returns within 30 days.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact">
+
+                    <div class="contactus">
+                        <h1>#Let's Connect</h1>
+                        <p>We're here to help! If you have any questions or need assistance, please reach out to us.</p>
+                    </div>
+
+                    <div class="contactMe">
+                        <div class="contactText">
+                            <h1>Visit Our Office or Contact Us Today</h1>
+                            <p>Address : Pune.</p>
+                            <p>Contact : fashion@gmail.com</p>
+                            <p>Number : 9999999999</p>
+                        </div>
+                        <img src="map.PNG" alt="">
+                    </div>
+
+                    <div class="form">
+                        <h1>Connect with Us. Fill Form</h1>
+                        <input type="text" placeholder="Enter Email"> <br>
+                        <input type="text" placeholder="Enter Password"> <br>
+                        <input type="text" placeholder="Enter Mob.No."> <br>
+                        <input type="text" placeholder="Enter Address"> <br>               
+                        <button>Submit</button>
+                    </div>
+                </div>
+                 <!-- cart -->
+
+                 <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1>Trends Offer : Trending Shop <br>
+                            Now</h1>
+                            <h2>Special Price</h2>
+                            <h2>$11</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                           <div class="btn">
+                            <button>Buy Now</button>
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <button  class="back">Back</button>
+                    </div>
+                 </div>
+
+                </div>
+                <!-- temp -->
+                  <div class="contemp">
+                    <img src="ab2-removebg-preview.png" alt="">
+
+                    
+                    <h1 class="s">Services</h1>
+                      
+                      <div class="service-item">
+                        <img src="free-delivery.png" alt="">
+                        <h2 class="h3">Free Shipping</h2>          
+                      </div>
+
+                      <div class="service-item">
+                        <img src="gift-card.png" alt="">
+                        <h2 class="h3">Gift cards</h2>
+                      </div>
+
+                      <div class="service-item">
+                        <img src="fashion-design.png" alt="">
+                        <h2 class="h3">New Styles</h2>
+                      </div>
+                  </div>          
+    </div>
+
+      <div class="footerTest">
+        
+        <div id="footerTest">
+          <div class="footerWrap">
+              <div class="toe">
+                <h3>Support</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Product Exchange</a>
+                <a href="#">Cash Back Rewards</a>
+              </div>
+              <div class="toe">
+                <h3>About</h3>
+                <a href="#">About Us</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
+              </div>
+              <div class="toe">
+                <h3>Follow</h3>
+               
+                  <a href="#">Facebook</a>
+                  <a href="#">Pinterest</a>
+                  <a href="#">Instagram</a>
+               
+                    
+              </div>
+            </div>
+          </div>
+        
+
+      <br><br>
+      <p class="foot" > © Made by Pratiksha.</p>
+     
+        </div>
+      </div>
+    
+      <script src="Web.js"></script>
+      </body>
+      </html>
